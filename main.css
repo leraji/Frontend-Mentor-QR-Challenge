@@ -4,12 +4,38 @@ html,
 body {
     height: 100%;
     width: 100%;
-    font-family: font-family: 'Outfit', sans-serif;
+    padding: 0;
+    margin: 0;
+    background-color: hsl(212, 45%, 89%);
 }
 
 .qr-component {
 
     display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100%;
+    width: 100%;
+
+}
+
+.qr-wrapper {
+    height: 500px;
+    weight: 320px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+    border-radius: 20px;
+    background-color: hsl(0, 0%, 100%);
+
+}
+
+.qr-img {
+    height: 288px;
+    weight: 288px;
+    border-radius: 10px;
+
 
 
 }
