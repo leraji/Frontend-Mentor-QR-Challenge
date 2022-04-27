@@ -63,7 +63,7 @@ body {
     line-height: 28px;
     font-family: 'Outfit', sans-serif;
     font-weight: 700;
-    font-size: 22px;
+    font-size: 1.375rem;
     color: hsl(218, 44%, 22%);
     margin-bottom: 15px;
 }
@@ -76,7 +76,16 @@ body {
     line-height: 19px;
     font-family: 'Outfit', sans-serif;
     font-weight: 400;
-    font-size: 15px;
+    font-size: 0.9375rem;
     color: hsl(220, 15%, 55%);
 
+}
+
+/* For devices with width of 480px and less */
+@media only screen and (max-width: 480px) {
+    body {
+        height: 667px;
+        width: 375px;
+
+    }
 }
